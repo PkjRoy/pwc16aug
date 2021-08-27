@@ -1,0 +1,27 @@
+ ssh-keygen
+ 2005  cat /root/.ssh
+ 2006  cat /root/.ssh/id_rsa.pub
+ 2007  cd Desktop/gitpractice/
+ 2009  ls
+ 2010  git clone git@github.com:PkjRoy/pwc16aug.git
+ 2011  ls
+ 2012  cd pwc16aug/
+ 2013  touch file1
+ 2014  ls
+ 2015  git add file1
+ 2016  ls
+ 2017  git status
+ 2018  git commit -m "file1 is committed"
+ 2019  git status
+ 2020  git push
+ 2021  ls
+ 2022  touch file2
+ 2023  ls
+ 2024  git add file2
+ 2025  ls
+ 2026  git status
+ 2027  git commit -m "file2 is committed"
+ 2028  git push
+ 2029  ls
+ 2030  git status
+ 2031  git log

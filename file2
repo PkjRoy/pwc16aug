@@ -18,7 +18,6 @@
  2022  touch file2
  2023  ls
  2024  git add file2
- 2025  ls
  2026  git status
  2027  git commit -m "file2 is committed"
  2028  git push
